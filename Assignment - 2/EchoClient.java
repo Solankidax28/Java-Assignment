@@ -27,6 +27,7 @@ public class EchoClient {
             System.out.println("Server replied: " + response);
 
             socket.close();
+            sc.close();
 
         } catch (Exception e) {
             System.out.println(e);
